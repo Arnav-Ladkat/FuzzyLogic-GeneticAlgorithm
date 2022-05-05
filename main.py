@@ -99,7 +99,7 @@ def main():
     ax.boxplot(list(record.values()), vert=True, patch_artist=True, labels=list(record.keys()))
 
     ax.set_xlabel('Algorithm')
-    ax.set_ylabel('Accracy')
+    ax.set_ylabel('Accuracy')
 
     plt.tight_layout()
 
