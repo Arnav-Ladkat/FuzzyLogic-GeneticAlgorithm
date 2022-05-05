@@ -98,8 +98,8 @@ def main():
 
     ax.boxplot(list(record.values()), vert=True, patch_artist=True, labels=list(record.keys()))
 
-    ax.set_xlabel('Algoritmo')
-    ax.set_ylabel('Acurácia')
+    ax.set_xlabel('Algorithm')
+    ax.set_ylabel('Accracy')
 
     plt.tight_layout()
 
